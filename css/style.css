@@ -34,6 +34,18 @@ figcaption {
 }
 /*Psuedo*/
 #details a:link {
-  color: black;
+  color: blue;
+  text-decoration: none;
+}
+#details a:visited {
+  color: purple;
+  text-decoration: none;
+}
+#details a:hover {
+  color: red;
+  text-decoration: underline;;
+}
+#details a:active {
+  color: pink;
   text-decoration: none;
 }
